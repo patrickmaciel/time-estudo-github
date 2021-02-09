@@ -28,6 +28,9 @@
             <li>
                 <a href="/pages/matheus.php">Matheus</a>
             </li>
+			<li>
+                <a href="/pages/renato.php">Renato</a>
+            </li>
         </ul>
     </div>
 
