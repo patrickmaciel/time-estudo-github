@@ -1,13 +1,30 @@
-.wrapper {
-    margin: 0 auto;
-    width: 1006px;
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
 
-#header {
+html,
+body {
+    height: 100vh;
 }
+
+.wrapper {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#header {}
+
 #header p {
     font-size: 20px;
 }
+
 #header ul {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +32,7 @@
     margin: 0;
     padding: 0;
 }
+
 #header ul li {
     list-style: none;
     margin: 0;
